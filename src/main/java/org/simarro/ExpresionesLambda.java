@@ -15,20 +15,19 @@ public class ExpresionesLambda {
 
     public static void main(String[] args) {
 
-    // expresiones lambda
-    Calculadora suma =(a,b)->a+b;
-    Calculadora multiplicacion=(a,b)->a*b;
-    Calculadora resta=(a,b)->a-b;
+        // expresiones lambda
+        Calculadora suma = (a, b) -> a + b;
+        Calculadora multiplicacion = (a, b) -> a * b;
+        Calculadora resta = (a, b) -> a - b;
 
 
-        System.out.println("suma: " +suma.operacion(3,5));
-        System.out.println("resta: " +resta.operacion(3,5));
-        System.out.println("multiplicacion: " +multiplicacion.operacion(3,5));
+        System.out.println("suma: " + suma.operacion(3, 5));
+        System.out.println("resta: " + resta.operacion(3, 5));
+        System.out.println("multiplicacion: " + multiplicacion.operacion(3, 5));
 
-
-        int calculo=3+5;
-
+        //makigas   https://www.youtube.com/watch?v=Axzb-i4PQEg
 
 
     }
+
 }
