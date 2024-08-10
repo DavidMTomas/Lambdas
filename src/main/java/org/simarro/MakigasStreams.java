@@ -3,6 +3,7 @@ package org.simarro;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class MakigasStreams {
     public static void main(String[] args) {
@@ -35,8 +36,8 @@ public class MakigasStreams {
         continentes.stream().limit(4).forEach(System.out::println);
 
         //peek
-        continentes.stream().peek(str-> System.out.println("Pais "+str)).limit(3).forEach(System.out::println);
-
+        System.out.println("Peek");
+        continentes.stream().peek(str-> System.out.println("Pais "+str)).limit(3).collect(Collectors.toList());
 
         //dropwhile   descarta elementos mientras, acepta un predicado como elemento
         // Si es verdaddero lo descarta, cuando es falso acepta todo lo siguiente
