@@ -17,7 +17,7 @@ public class Metodos {
 
     public static void main(String[] args) throws IOException {
 
-        // makigas https://www.youtube.com/watch?v=p211H0CL8Rs&t=518s
+        // www https://www.youtube.com/watch?v=p211H0CL8Rs&t=518s
 
         var continentes= Arrays.asList("America","Europa", "Asia", "America", "Oceania","Africa");
 

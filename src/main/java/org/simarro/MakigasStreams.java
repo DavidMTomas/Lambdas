@@ -2,6 +2,7 @@ package org.simarro;
 
 import java.util.Arrays;
 import java.util.Comparator;
+import java.util.HashMap;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -74,5 +75,26 @@ public class MakigasStreams {
 
         continentes.stream().distinct().forEach(System.out::println);
 
+
+       var frutas=List.of("manzana","pera","platano");
+       List<String> variedades= List.of("Verde", "amarillo", "Premiun");
+
+       var strings=frutas.stream().map((fruta)-> {
+           return variedades.stream()
+                   .map((var)-> fruta + " "+var).toList();
+       }).toList();
+
+
+        System.out.println(strings);
+
+
+        var flas = frutas.stream().flatMap((fruta)->
+                variedades.stream()
+                .map((var)-> fruta + " "+var)).toList();
+
+
+        System.out.println(flas);
     }
+
+
 }
