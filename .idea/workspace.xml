@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94fc6bea-2f59-4519-ad67-b17769e1594c" name="Changes" comment="practica 10-08">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/simarro/MakigasStreams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/simarro/MakigasStreams.java" afterDir="false" />
-    </list>
+    <list default="true" id="94fc6bea-2f59-4519-ad67-b17769e1594c" name="Changes" comment="practica 13-08" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -210,6 +207,7 @@
       <workItem from="1723273327853" duration="1157000" />
       <workItem from="1723274497162" duration="3973000" />
       <workItem from="1723308361081" duration="4076000" />
+      <workItem from="1723564937566" duration="1084000" />
     </task>
     <task id="LOCAL-00001" summary="lambda">
       <option name="closed" value="true" />
@@ -243,7 +241,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723308936222</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="practica 13-08">
+      <option name="closed" value="true" />
+      <created>1723566901683</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1723566901683</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,6 +259,7 @@
     <MESSAGE value="lambda" />
     <MESSAGE value="practica 08-08" />
     <MESSAGE value="practica 10-08" />
-    <option name="LAST_COMMIT_MESSAGE" value="practica 10-08" />
+    <MESSAGE value="practica 13-08" />
+    <option name="LAST_COMMIT_MESSAGE" value="practica 13-08" />
   </component>
 </project>
